@@ -64,7 +64,7 @@ for (let eded = 100; eded <= 999; eded++) {
 
 //3 rəqəmli ədədlərdən 7 və 8-ə bölünən son ədədi tapın.
 let son_eded = 0;
-for (let eded=999;eded<=100;eded--){
+for (let eded=999;eded>=100;eded--){
   if(eded%7==0 && eded%8==0)
   son_eded=eded;
   console.log(eded);
